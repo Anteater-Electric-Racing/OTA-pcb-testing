@@ -5148,6 +5148,12 @@
 		(uuid "c7c77db2-3d31-4315-b480-a17279519855")
 	)
 	(junction
+		(at 140.97 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea78a9b6-afd2-4c60-9656-ee371779e5e6")
+	)
+	(junction
 		(at 57.15 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5306,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "087bb1e9-a8b3-4985-90f2-eef6d5f59d11")
+	)
+	(wire
+		(pts
+			(xy 140.97 149.86) (xy 137.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e12791-6961-4a6c-a5b0-ade1e1b26f60")
 	)
 	(wire
 		(pts
@@ -5469,7 +5485,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 147.32) (xy 137.16 147.32)
+			(xy 151.13 149.86) (xy 140.97 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5709,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 144.78) (xy 137.16 147.32)
+			(xy 137.16 144.78) (xy 137.16 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6086,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "f6fbe448-648a-4629-8cdb-296375bdae9f")
+	)
+	(wire
+		(pts
+			(xy 151.13 149.86) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad3d05a-a244-4d84-a110-6ffec396b2f3")
 	)
 	(label "IO5"
 		(at 22.86 41.91 180)
