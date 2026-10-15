@@ -5468,6 +5468,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -6012,12 +6127,6 @@
 		(uuid "fec7a9f2-7957-4b6b-a849-65bb7d5699a2")
 	)
 	(junction
-		(at 57.15 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0293f099-e65a-4ada-8277-eeda6a7eb9d0")
-	)
-	(junction
 		(at 73.66 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6060,28 +6169,28 @@
 		(uuid "2393f35d-032a-4792-bbef-b2c4b23ce58a")
 	)
 	(junction
+		(at 64.77 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26437da7-24b8-4451-9590-c948128be601")
+	)
+	(junction
+		(at 57.15 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cf91454-26f9-4b9e-89c2-c71d049c519a")
+	)
+	(junction
 		(at 248.92 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ea23df6-7c41-4239-a7d8-1d1d50999c83")
 	)
 	(junction
-		(at 157.48 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "462bc23f-5f9e-456a-ad82-9e08a105697a")
-	)
-	(junction
 		(at 264.16 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46e86572-6604-4d47-8cab-99ff2350265d")
-	)
-	(junction
-		(at 137.16 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47ede584-7b5e-4d1c-9a40-931f4a16cb41")
 	)
 	(junction
 		(at 204.47 138.43)
@@ -6108,6 +6217,12 @@
 		(uuid "539e52e0-16e8-4b17-8664-2fa344042de2")
 	)
 	(junction
+		(at 157.48 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c654e3e-258d-49ae-b458-e036fc480e9e")
+	)
+	(junction
 		(at 264.16 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6132,12 +6247,6 @@
 		(uuid "7cdc7225-ce24-4c68-abaa-4120fbb3a6a5")
 	)
 	(junction
-		(at 86.36 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a3e5168-df65-48bf-9ad8-1e92bb5d7ce9")
-	)
-	(junction
 		(at 151.13 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6154,12 +6263,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97461c30-3945-4188-9afa-eed9981482ea")
-	)
-	(junction
-		(at 64.77 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "addd1c96-46e1-434c-8d33-293c0dee6714")
 	)
 	(junction
 		(at 165.1 128.27)
@@ -6190,6 +6293,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8c7644f-ad9b-49d0-ab97-e53356bcb4ba")
+	)
+	(junction
+		(at 86.36 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb133b51-ea51-4915-9d5b-e822a80173a9")
+	)
+	(junction
+		(at 104.14 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d64c5154-5dde-4027-a0cf-474e3ee1a6dd")
 	)
 	(junction
 		(at 198.12 113.03)
@@ -6226,6 +6341,10 @@
 		(uuid "2fe44672-7922-493d-bbc6-8c2b93ea74f3")
 	)
 	(no_connect
+		(at 22.86 77.47)
+		(uuid "401f65cf-7e7e-42b7-91cb-6848278f7a09")
+	)
+	(no_connect
 		(at 73.66 49.53)
 		(uuid "496a4280-9c23-43cf-9532-3548bade81d2")
 	)
@@ -6254,6 +6373,10 @@
 		(uuid "78c33efe-e8a2-40b5-9ed4-b2297a8498c9")
 	)
 	(no_connect
+		(at 73.66 39.37)
+		(uuid "7d949a8e-c452-450e-ab14-3383d25694cf")
+	)
+	(no_connect
 		(at 245.11 138.43)
 		(uuid "a0db54c0-8510-40d8-93ed-99ac07bb10ae")
 	)
@@ -6272,6 +6395,10 @@
 	(no_connect
 		(at 245.11 148.59)
 		(uuid "ded67377-bc92-4d82-ae44-cc1a17a4e7a2")
+	)
+	(no_connect
+		(at 22.86 74.93)
+		(uuid "e10db0f1-43db-40af-b80c-baa28ef776a3")
 	)
 	(no_connect
 		(at 73.66 54.61)
@@ -6379,23 +6506,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 139.7) (xy 137.16 139.7)
+			(xy 104.14 124.46) (xy 104.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c330ab5-7557-40ef-89f5-2d9cfb1a1c97")
+	)
+	(wire
+		(pts
+			(xy 133.35 139.7) (xy 140.97 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0da03e0d-e3f1-49d9-b579-0c53bcdb1bcf")
-	)
-	(wire
-		(pts
-			(xy 78.74 165.1) (xy 86.36 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d7cf40e-2b4d-414c-a51c-888a5e017caf")
 	)
 	(wire
 		(pts
@@ -6569,6 +6696,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 165.1) (xy 86.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd9fab3-6bdb-4532-bba1-f43b1f79b5e4")
+	)
+	(wire
+		(pts
 			(xy 63.5 59.69) (xy 73.66 59.69)
 		)
 		(stroke
@@ -6719,7 +6856,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 104.14 127)
+			(xy 104.14 120.65) (xy 104.14 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7006,16 +7143,6 @@
 			(type default)
 		)
 		(uuid "ae9773d0-2cb4-4ad1-918d-8396c0f150a6")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0331c27-5788-44ba-a531-cf0b1a137744")
 	)
 	(wire
 		(pts
@@ -8855,88 +8982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 157.48 185.42 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1188e7b5-352b-486b-abaf-2a5151e27124")
-		(property "Reference" "SW1"
-			(at 161.29 184.1499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 161.29 186.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SK's_Components:Button_MJTP1250"
-			(at 162.56 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10e0d854-f205-44a0-b2fb-1ad2abb4cfcf")
-		)
-		(pin "2"
-			(uuid "d5a7ec62-7195-460d-ab3d-ef5f4f483c92")
-		)
-		(instances
-			(project "VCU"
-				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM1117DT-3.3")
 		(at 66.04 182.88 0)
 		(unit 1)
@@ -10234,6 +10279,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "378279cd-c78f-4845-a476-23291fef0db8")
+		(property "Reference" "#FLG01"
+			(at 106.045 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce5bab3c-e91f-44e0-adb8-eab79a4a88ea")
+		)
+		(instances
+			(project "VCU"
+				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 189.23 147.32 0)
 		(unit 1)
@@ -10462,6 +10586,88 @@
 			(project "VCU"
 				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 157.48 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438e5844-8738-46d3-8227-eb1ba4fe43da")
+		(property "Reference" "SW3"
+			(at 161.29 184.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 161.29 186.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK's_Components:Button_MJTP1250"
+			(at 162.56 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "315c0aed-a1e9-4e54-8bc9-b581fdba6186")
+		)
+		(pin "2"
+			(uuid "b6278093-01e8-478c-8ce4-099e18369333")
+		)
+		(instances
+			(project "VCU"
+				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12591,7 +12797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 60.96 130.81 90)
+		(at 60.96 130.81 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12601,7 +12807,7 @@
 		(dnp no)
 		(uuid "8df10aad-2f61-4c41-bada-1e27d0dfaf6c")
 		(property "Reference" "R15"
-			(at 60.96 125.222 90)
+			(at 60.96 136.398 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12611,7 +12817,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 60.96 127 90)
+			(at 60.96 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12621,7 +12827,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 61.214 129.794 90)
+			(at 60.706 131.826 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13159,6 +13365,84 @@
 			(project "VCU"
 				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 54.61 182.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d4d8a85-c7a2-45ba-b449-3bb7e94d5099")
+		(property "Reference" "#FLG02"
+			(at 52.705 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 51.816 181.864 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 54.61 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6868d1b-5587-408d-b801-13645d023c8a")
+		)
+		(instances
+			(project "VCU"
+				(path "/be7bcd62-a01d-4d10-b317-838a6e59e497"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
