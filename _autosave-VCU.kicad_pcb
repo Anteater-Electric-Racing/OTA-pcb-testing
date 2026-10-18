@@ -10899,7 +10899,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "7d5727f0-da12-4946-a179-59d54c7cb67c")
-		(at 93.3 52.9 180)
+		(at 93.3 54.3 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -12985,12 +12985,12 @@
 	)
 	(dimension
 		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "5693cb84-cae1-4653-90b6-c35ce90ca7c2")
+		(layer "F.Cu")
+		(uuid "eae4820a-5562-4390-bd3c-64bdd57af103")
 		(pts
-			(xy 66.9 82.2) (xy 111.2 82.2)
+			(xy 112.5 82.2) (xy 66.9 82.2)
 		)
-		(height 7.2)
+		(height 8.9)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -13009,10 +13009,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "44.3"
-			(at 89.05 87.6 0)
-			(layer "F.Fab")
-			(uuid "5693cb84-cae1-4653-90b6-c35ce90ca7c2")
+		(gr_text "45.6"
+			(at 89.7 89.3 0)
+			(layer "F.Cu")
+			(uuid "eae4820a-5562-4390-bd3c-64bdd57af103")
 			(effects
 				(font
 					(size 1.5 1.5)
