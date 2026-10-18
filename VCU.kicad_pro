@@ -715,7 +715,7 @@
         "uuid": "be7bcd62-a01d-4d10-b317-838a6e59e497"
       }
     ],
-    "used_designators": "C17,#PWR14-15,#PWR44-45,R6-7,#FLG1,J4",
+    "used_designators": "C17,#PWR14-15,#PWR44-45,BOOT1,R6-7,#FLG1,J4,ENABLE1",
     "variants": []
   },
   "sheets": [
